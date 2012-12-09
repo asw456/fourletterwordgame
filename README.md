@@ -1,7 +1,7 @@
 fourletterwordgame
 ==================
 
-This was a friendly little competition to see who could solve the four-letter-word matchinggame in the least number of guesses, averaged over 1000 Monte Carlo simulations.
+This was a friendly little competition to see who could solve the four-letter-word matching game in the least number of guesses, averaged over 1000 Monte Carlo simulations.
 
 The game: I choose a secret four letter word at random from the Scrabble dictionary. You try and guess my word. I tell you the number of letters in common (order is irrelevant). You choose a better word based on this information, and so on. Less attempts is better.
 
