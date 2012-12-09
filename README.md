@@ -1,9 +1,9 @@
 fourletterwordgame
 ==================
 
-This was a friendly little competition to see who could solve the four-letter-word matchinggame ni the least number of guesses, averaged over 1000 Monte Carlo simulations.
+This was a friendly little competition to see who could solve the four-letter-word matchinggame in the least number of guesses, averaged over 1000 Monte Carlo simulations.
 
-The Game: I choose a secret four letter word at random from the Scrabble dictionary. You try and guess my word. I tell you the number of letters in common (order is irrelevant). You choose a better word based on this information, and so on. Less attempts is better.
+The game: I choose a secret four letter word at random from the Scrabble dictionary. You try and guess my word. I tell you the number of letters in common (order is irrelevant). You choose a better word based on this information, and so on. Less attempts is better.
 
 Competing solutions are Matlab and Java. The Matlab solution guesses based on letter frequencies in the remaining solution space. The Java solution guesses based on maximising the expected number of words eliminated.
 
