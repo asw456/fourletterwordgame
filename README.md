@@ -1,7 +1,7 @@
 fourletterwordgame
 ==================
 
-Solution to the game where you guess a four letter word by number of matching letters.
+four letter word matching in Java (parallel using AWS EC2) and Matlab.
 
 Conducts a Monte Carlo simulation of 1000 games and records the number of guesses required for each game. 
 
