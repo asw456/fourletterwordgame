@@ -7,14 +7,17 @@ The game: I choose a secret four letter word at random from the Scrabble diction
 
 Competing solutions are Matlab and Java. The Matlab solution guesses based on letter frequencies in the remaining solution space. The Java solution guesses based on maximising the expected number of words eliminated.
 
-The Java solution uses 8 threads in parallel to run the simulations. AWS EC2 support for any number of threads coming soon.
+The Java solution uses 8 threads and takes ~2 hours on an i7. AWS EC2 could be used to get a more accurate expectation.
 
 Results -
+
 Java:   mean  9.904     std dev  2.889
+
 Matlab: mean  10.06     std dev  3.122
 
 Improvements - 
-use multi-letter combination frequencies, a multi-step elimination expectation or just minimise the expected path length directory (probably intractable computationally).
+
+use multi-letter combination frequencies, a multi-step elimination expectation or just minimise the expected path length directly (probably intractable computationally).
 
 
 
