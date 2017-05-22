@@ -1,11 +1,13 @@
 fourletterwordgame
 ==================
 
-**Master mind**: challengers guess which *n-*letter word the master is thinking of by querying *n-*letter words and receiving an integer number of letter matches in response.
+**Mastermind** 
 
-This was a friendly sibling competition to see who could solve the *n-*letter-word matching game for *n = 4* in the least number of guesses.
+Challengers guess which *n-* letter word the master is thinking of by querying *n-* letter words and receiving an integer number of letter matches in response.
 
-The game: The master chooses a secret *n-*letter word at random from the Scrabble dictionary. *n* is known by all challengers. The challengers try and guess the Master's word. After a query word is put to the Master by the challenger, the Master responds with the number of letters in common. The challenger updates his mental model and chooses a better word based on this information, and so on. Less attempts to guess the word in full is better.
+This was a friendly sibling competition to see who could solve the *n-* letter-word matching game for *n* = 4 in the least number of guesses.
+
+The game: The master chooses a secret *n-* letter word at random from the Scrabble dictionary. *n* is known by all challengers. The challengers try and guess the Master's word. After a query word is put to the Master by the challenger, the Master responds with the number of letters in common. The challenger updates his mental model and chooses a better word based on this information, and so on. Less attempts to guess the word in full is better.
 
 Competing solutions: Brother 1: Matlab. Brother 2: Java.  The Matlab solution guesses based on letter frequencies in the remaining solution space. The (obviously superior) Java solution guesses based on maximising the expected number of words eliminated after two iterations.
 
